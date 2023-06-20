@@ -1,0 +1,30 @@
+  /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar-danger {
+  background-color: #dc3545; /* Ubah warna sesuai kebutuhan */
+}
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #FF0000;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      #mybtn {
+    display: block;
+    }
+      .row.content {height:auto;} 
+    }
+ .modal-header, h4, .close {
+      background-color: #f44336;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+
+  
